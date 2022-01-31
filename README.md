@@ -1,3 +1,13 @@
+# Arranque Proyecto:
+
+- Para configurar el "fake" back: 
+    1. Instalamos una API fake, denominada json-parser: npm i -g json-server
+		2. creamos carperta server (fuera de src) u dentro de la nueva carpeta creamos un archivo db.json (la web del back estará en localhost:3000/) y ahi alojamos el "acuerdo de la respuesta de back" , es decir el json de respuesta, por último ejecutamos: 
+
+*Back : npm run serverAPI
+
+*front: ng serve  (4200/products)
+
 # Store
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
